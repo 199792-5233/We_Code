@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="68" viewBox="0 0 70 68">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="crop" width="70" height="68" transform="translate(0 3.861)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.376" cy="0.339" r="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#423325" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#1c0a00"/>
+    </radialGradient>
+  </defs>
+  <g id="Illustrator_copy" data-name="Illustrator copy" transform="translate(0 -3.861)" clip-path="url(#clip-path)">
+    <path id="Path_594" data-name="Path 594" d="M2.917,6.931H67.083V72.637H2.917Z" fill="url(#radial-gradient)"/>
+    <path id="Path_595" data-name="Path 595" d="M2.917,6.931H67.083V72.637H2.917ZM0,75.708H70V3.861H0Zm45.85-46.24c0-.246.088-.369.35-.369h4.579c.233,0,.35.092.35.369V53.693c0,.245-.058.368-.35.368H46.258c-.292,0-.379-.153-.379-.4V29.468Zm-.321-6.97a2.979,2.979,0,1,1,5.95,0,2.859,2.859,0,0,1-3.033,3.132A2.817,2.817,0,0,1,45.529,22.5ZM32.4,39.569c-.817-3.408-2.742-10.838-3.471-14.431h-.058c-.613,3.592-2.158,9.672-3.383,14.431ZM24.3,44.544l-2.3,9.211c-.058.245-.146.307-.437.307H17.267c-.292,0-.35-.092-.292-.46l8.283-30.52a10.438,10.438,0,0,0,.292-2.548c0-.215.087-.307.233-.307h6.125c.2,0,.292.061.35.307l9.275,33.129c.058.245,0,.4-.233.4H36.458c-.233,0-.379-.061-.437-.276l-2.392-9.242Z" fill="#ff7f18"/>
+  </g>
+</svg>
