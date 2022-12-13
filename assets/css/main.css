@@ -864,6 +864,7 @@ section {
   min-height: 420px;
   align-content: center;
   display: grid;
+  margin-bottom: 27px;
 }
 
 .what_we_sec .we_box .flex_box {
@@ -2301,7 +2302,7 @@ section {
 
 .bg_box h4 {
   color: var(--color-white);
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 5px;
   margin-top: 3px;
 }
@@ -2814,19 +2815,170 @@ section {
 
 /* ****************Media Queries**************** */
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media (min-width: 1200px) and (max-width: 1366px) {}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .about .content {
+    max-width: 100%;
+    margin-left: 10px;
+  }
+
+  .bg_box {
+    position: unset;
+    max-width: 100%;
+  }
+
+  .contact .php-email-form {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about .content {
+    max-width: 100%;
+    margin-left: 10px;
+  }
+
+  .bg_box {
+    position: unset;
+    max-width: 100%;
+  }
+
+  .contact .php-email-form {
+    margin-top: 0;
+  }
+
+  .flexDiv h2 {
+    font-size: 45px;
+  }
 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+}
+
+@media only screen and (max-width: 767px) {
+  .section-header h2 {
+    font-size: 41px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .what_we_sec {
+    padding: 50px 0;
+  }
+
+  .what_we_sec .we_box {
+    margin-bottom: 20px;
+    padding: 25px 34px;
+  }
+
+  .what_we_sec .we_box .flex_box {
+    margin-bottom: 20px;
+  }
+
+  .what_we_sec .we_box .flex_box .img_icon {
+    width: 87px;
+  }
+
+  .flexDiv h2 {
+    font-size: 38px;
+  }
+
+  .btn_outline {
+    padding: 12px 23px;
+  }
+
+  .about .content {
+    max-width: 100%;
+    margin-left: 13px;
+  }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+  .recent-posts .title {
+    margin-top: 21px;
+  }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+  .contact .php-email-form {
+    margin-top: 0;
+  }
+
+  .bg_box {
+    position: unset;
+  }
+
+  .footer .footer-links {
+    margin-bottom: -16px;
+    margin-top: 40px;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 767px) {}
+
+@media only screen and (max-width: 600px) {
+  .section-header h2 {
+    font-size: 41px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .what_we_sec {
+    padding: 50px 0;
+  }
+
+  .what_we_sec .we_box {
+    margin-bottom: 20px;
+    padding: 25px 34px;
+  }
+
+  .what_we_sec .we_box .flex_box {
+    margin-bottom: 20px;
+  }
+
+  .what_we_sec .we_box .flex_box .img_icon {
+    width: 87px;
+  }
+
+  .flexDiv h2 {
+    font-size: 38px;
+  }
+
+  .btn_outline {
+    padding: 12px 23px;
+  }
+
+  .about .content {
+    max-width: 100%;
+    margin-left: 13px;
+  }
+
+
+  .recent-posts .title {
+    margin-top: 21px;
+  }
+
+  .contact .php-email-form {
+    margin-top: 0;
+  }
+
+  .bg_box {
+    position: unset;
+  }
+
+  .footer .footer-links {
+    margin-bottom: -16px;
+    margin-top: 40px;
+  }
+
+
+
+
+
+
+
+
+
+}
