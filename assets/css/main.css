@@ -2871,6 +2871,18 @@ section {
   .what_we_sec .we_box {
     margin-bottom: 20px;
     padding: 25px 34px;
+    min-height: 301px;
+  }
+
+  .what_we_sec .we_box .desc h3 {
+    font-size: 25px;
+  }
+
+
+  .what_we_sec .we_box .desc p {
+
+    font-size: 13px;
+
   }
 
   .what_we_sec .we_box .flex_box {
@@ -2910,6 +2922,18 @@ section {
   .footer .footer-links {
     margin-bottom: -16px;
     margin-top: 40px;
+  }
+
+  .icon_img {
+    margin-bottom: 18px;
+  }
+
+  .left_box {
+    margin-bottom: 38px;
+  }
+
+  .footer .footer-links ul a {
+    font-size: 12px;
   }
 
 }
@@ -2981,4 +3005,27 @@ section {
 
 
 
+}
+
+@media only screen and (max-width: 480px) {
+  .header .logo img {
+    max-height: 30px;
+    margin-right: 0;
+  }
+
+  .btn_main {
+    padding: 11px 25px;
+    font-size: 11px;
+    height: 40px;
+  }
+
+  .flexDiv {
+    margin-bottom: 25px;
+  }
+
+  .btn_outline {
+    padding: 12px 17px;
+    font-size: 13px;
+    height: 45px;
+  }
 }
